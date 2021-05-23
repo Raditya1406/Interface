@@ -1,0 +1,27 @@
+
+public class Main implements pesan {
+
+    public static void main(String[] args) {
+	Main ps = new Main();
+	ps.tampilpesan1();
+	ps.tampilpesan2();
+	ps.tampilpesan3();
+    }
+
+    @Override
+    public void tampilpesan1() {
+        System.out.println("Nama = Rizky");
+        System.out.println("NIM  = 2001923");
+    }
+    @Override
+    public void tampilpesan2() {
+        System.out.println("Nama = Rei");
+        System.out.println("NIM  = 2001832");
+    }
+
+    @Override
+    public void tampilpesan3() {
+        System.out.println("Nama = Witri");
+        System.out.println("NIM  = 2091038");
+    }
+}
