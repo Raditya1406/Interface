@@ -1,0 +1,5 @@
+public interface pesan {
+    public void tampilpesan1();
+    public void tampilpesan2();
+    public void tampilpesan3();
+}
